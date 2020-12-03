@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		更多分类
 	</view>
 </template>
 
