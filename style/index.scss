@@ -1,0 +1,81 @@
+@import "base.scss";
+
+.main-color {
+  color: $main-color;
+}
+
+.minor-color {
+  color: $minor-color;
+}
+
+.main-msg-bg {
+  @extend .main-color;
+  background: $main-bg-color;
+}
+
+.minor-msg-bg {
+  @extend .minor-color;
+  background: $minor-bg-color;
+}
+
+.main-bgl {
+  color: $uni-text-color;
+  background: $main-linear-color;
+}
+
+.minor-bgl {
+  color: $uni-text-color;
+  background: $minor-linear-color;
+}
+
+.main-bg {
+  color: $uni-text-color-inverse;
+  background: $main-color;
+}
+
+.main-btn {
+  @extend .pd_lr_10;
+  @extend .radius_5;
+  @extend .tac;
+  color: $uni-text-color-inverse;
+  background: $main-btn-linear-color;
+}
+
+.minor-btn {
+  @extend .pd_lr_10;
+  @extend .radius_5;
+  @extend .tac;
+  color: $uni-text-color-inverse;
+  background: $minor-btn-linear-color;
+}
+
+.main-border {
+  border-color: $border-color;
+  @extend .border;
+}
+
+.main-shadow {
+  box-shadow: 0 0 5px 1px $border-color;
+}
+
+.primary {
+  color: $uni-color-primary;
+}
+.success {
+  color: $uni-color-success;
+}
+.warning {
+  color: $uni-color-warning;
+}
+.error {
+  color: $uni-color-error;
+}
+.grey {
+  color: $uni-text-color-grey;
+}
+.black {
+  color: $uni-text-color-black;
+}
+.white {
+  color: $uni-text-color-inverse;
+}

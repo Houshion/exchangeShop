@@ -1,0 +1,24 @@
+/* 主色调 */
+$main-color: #db4a15;
+/* 次色调 */
+$minor-color: #14d2b6;
+/* 主色背景 */
+$main-bg-color: #fff6f3;
+/* 次色背景 */
+$minor-bg-color: #f2fffd;
+/* 主色渐变 */
+$main-linear-color: linear-gradient(to right, #fff6f3, #ffffff);
+/* 次色渐变 */
+$minor-linear-color: linear-gradient(to right, #f2fffd, #ffffff);
+/* 主按钮色调 */
+$main-btn-color: #fb812e;
+/* 主按钮色调 */
+$main-btn-linear-color: linear-gradient(to right, #db4a15, #fb812e);
+/* 次按钮色调 */
+$minor-btn-linear-color: linear-gradient(to right, #14d2b6, #00eecc);
+/* 边线颜色 */
+$border-color: #db4a15;
+
+.bfff {
+  background: #ffffff;
+}
