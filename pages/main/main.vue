@@ -8,6 +8,9 @@
       <template v-if="current == 1">
         <com-feedback></com-feedback>
       </template>
+      <template v-if="current == 2">
+        <com-publish></com-publish>
+      </template>
       <template v-if="current == 3">
         <com-message></com-message>
       </template>
@@ -27,6 +30,7 @@
 </template>
 
 <script>
+import comPublish from "@/pages/publish/index";
 import comIndex from "@/pages/main/index";
 import comFeedback from "@/pages/feedback/feedback";
 import comMessage from "@/pages/message/message";
@@ -67,10 +71,11 @@ export default {
           customIcon: false,
         },
       ],
-      current: 0,
+      current: 2,
     };
   },
   components: {
+    comPublish,
     comIndex,
     comFeedback,
     comMessage,
