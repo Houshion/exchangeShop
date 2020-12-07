@@ -34,7 +34,7 @@ export default {
       this.$refs.uUpload.upload();
     },
   },
-};
+}
 </script>
 
 <style lang="scss">
