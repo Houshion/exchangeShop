@@ -49,6 +49,14 @@
   background: $minor-btn-linear-color;
 }
 
+.info-btn {
+  @extend .pd_lr_10;
+  @extend .radius_5;
+  @extend .tac;
+  color: $uni-text-color-grey;
+  background: #f5f5f5;
+}
+
 .main-border {
   border-color: $border-color;
   @extend .border;
